@@ -21,7 +21,7 @@ jobs:
 
   download: 
     needs: build
-    runs-on: ubuntu-lates
+    runs-on: ubuntu-latest
     
     steps:
     - name: Download artifacts
